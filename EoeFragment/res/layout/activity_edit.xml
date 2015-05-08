@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/activity_bg">
+    
+
+    <com.eoe.tampletfragment.view.TitleView
+        android:id="@+id/query_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="match_parent"  
+        android:layout_height="match_parent"  
+        android:layout_margin="30dp" > 
+        <TextView   
+        android:id="@+id/query_Txttitle"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:layout_alignParentLeft="true"  
+        android:gravity="center_horizontal"  
+        android:layout_alignParentRight="true"  
+        android:text="联系人"/>  
+  
+    <EditText  
+        android:id="@+id/query_name"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:layout_alignLeft="@id/query_Txttitle"  
+        android:layout_alignRight="@id/query_Txttitle"  
+        android:layout_below="@id/query_Txttitle"   
+        android:layout_marginTop="30dp"  
+        android:hint="姓名"/>  
+    <EditText   
+        android:id="@+id/query_phonenum"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:layout_below="@id/query_name"  
+        android:layout_alignLeft="@id/query_name"  
+        android:layout_alignRight="@id/query_name"  
+         android:layout_marginTop="30dp"  
+        android:hint="电话号码"  
+        android:inputType="textCapWords"/>
+    <EditText   
+        android:id="@+id/query_address"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:layout_below="@id/query_phonenum"  
+        android:layout_alignLeft="@id/query_phonenum"  
+        android:layout_alignRight="@id/query_phonenum"  
+         android:layout_marginTop="30dp"  
+        android:hint="地址"  
+        android:inputType="textCapWords"/>
+    <EditText   
+        android:id="@+id/query_remarks"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:layout_below="@id/query_address"  
+        android:layout_alignLeft="@id/query_address"  
+        android:layout_alignRight="@id/query_address"  
+         android:layout_marginTop="30dp"  
+        android:hint="备注"  
+        android:inputType="textCapWords"/>
+    <Button
+        android:id="@+id/save" 
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:layout_below="@id/query_remarks"  
+        android:layout_alignLeft="@id/query_remarks"  
+        android:layout_alignRight="@id/query_remarks"
+             android:layout_marginTop="30dp" 
+        android:text="保存"/>
+
+        </RelativeLayout>
+
+</LinearLayout>

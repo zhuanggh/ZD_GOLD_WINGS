@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EoeFragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    
+    <string name="tab_dial">"拨号"</string>
+    <string name="tab_contact">"联系人"</string>
+    <string name="tab_personal">"个人中心"</string>
+    
+    <string name="back">"返回"</string>
+    <string name="help">"帮助"</string>
+    <string name="exit">"退出"</string>
+    <string name="add">"添加"</string>
+
+    <string name="fragment_dial_text">"这是拨号"</string>
+    <string name="fragment_contact_text">"这是联系人"</string>
+    <string name="fragment_personal_text">"这是个人中心"</string>
+    
+</resources>
